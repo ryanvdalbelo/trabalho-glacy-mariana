@@ -1,0 +1,34 @@
+.menu-principal {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+}
+:root {
+    --cor-de-fundo: rgba(100, 100, 100, 0.288);
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: var(--cor-de-fundo);
+    margin: 0 auto;
+}
+main{
+    margin: 0 auto;
+    width: 1200px;
+    position: relative;
+}
+.logo{
+    float: left;
+    padding: 10px;
+    width: 20%;
+}
+.redes-sociais ul li {
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+.redes-sociais {
+    width: 30%;
+    float: right;
+}
